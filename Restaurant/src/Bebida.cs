@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant.src
 {
-    public class Bebida : Executivo
+    public  class Bebida : Executivo
     {
         public Bebida(string nome, double preco, string classificacao) : base(nome, preco, classificacao)
         {

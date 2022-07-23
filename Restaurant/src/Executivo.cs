@@ -9,9 +9,9 @@ namespace Restaurant.src
 {
     public class Executivo
     {
-        string Nome { get; set; }
-        double Preco { get; set; }
-        string Classificacao { get; set; }
+        public string Nome { get; set; }
+        public double Preco { get; set; }
+        public string Classificacao { get; set; }
 
         public Executivo(string nome, double preco, string classificacao)
         {
